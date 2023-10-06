@@ -247,7 +247,7 @@ async def start(client, message):
                     )
             lazy_keyboard = InlineKeyboardMarkup([
                                 [InlineKeyboardButton("Fast Download", url= await get_shortlink(lazy_download)),  # we download Link
-                                InlineKeyboardButton('▶Stream online', url= await get_shortlink(lazy_stream))],
+                                InlineKeyboardButton('▶Stream online', url= await get_shortlink(lazy_stream))],  
                             ])
             print("lazy_stream 👉 :", lazy_stream)
             print("lazy_download 👉 :", lazy_download)
